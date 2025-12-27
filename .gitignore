@@ -1,13 +1,46 @@
+# Unreal Engine - Generated folders
 Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
 .vs/
+.vscode/
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
 
-# Unreal Content (heavy assets)
+# Build / IDE
+*.log
+*.tmp
+*.cache
+*.psess
+*.vsp
+*.vdf
+*.user
+*.userprefs
+*.pidb
+*.db
+*.opendb
+*.ipch
+
+# Unreal project files (can be regenerated)
+*.sln
+*.xcodeproj
+*.xcworkspace
+*.xcodeproj/*
+*.code-workspace
+
+# Platform / Packaging outputs
+Build/
+StagedBuilds/
+
+# =========================
+# IMPORTANT: Ignore Content
+# =========================
 Content/
 
-# Assets / Raw files
+# Optional: ignore raw source art/audio (if you keep them outside Content too)
 *.fbx
 *.png
 *.jpg
@@ -15,18 +48,5 @@ Content/
 *.tga
 *.wav
 
-Content/
-*.exe
-*.mb
-*.mh
 
-*.exe
-*.mb
-
-# Visual Studio
-.vs/
-*.sln
-.vsconfig
-
-# Unreal generated
-Platforms/
+*.uasset
