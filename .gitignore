@@ -1,0 +1,32 @@
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+
+# Unreal Content (heavy assets)
+Content/
+
+# Assets / Raw files
+*.fbx
+*.png
+*.jpg
+*.jpeg
+*.tga
+*.wav
+
+Content/
+*.exe
+*.mb
+*.mh
+
+*.exe
+*.mb
+
+# Visual Studio
+.vs/
+*.sln
+.vsconfig
+
+# Unreal generated
+Platforms/
