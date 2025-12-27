@@ -50,3 +50,16 @@ Content/
 
 
 *.uasset
+
+
+# VS / local
+.vsconfig
+
+# Unreal optional / generated
+Platforms/
+
+# Third party binaries (plugin local)
+Plugins/Cargo/Source/ThirdParty/
+
+# DCC source files (Maya project files)
+Source/Maya/
